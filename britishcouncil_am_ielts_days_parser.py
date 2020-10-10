@@ -98,5 +98,5 @@ def compare_and_inform_if_required():
         DATES_KEY, {'dates': currently_available_dates, 'last_updated': datetime.now()})
 
 
-def handle_event():
+def handle_event(arg1=None, arg2=None):
     compare_and_inform_if_required()
